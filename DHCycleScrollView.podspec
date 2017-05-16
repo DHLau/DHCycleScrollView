@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DHCycleScrollView'
-  s.version          = '0.1.0'
-  s.summary          = 'scroll view'
+  s.version          = '0.1.1'
+  s.summary          = 'Cycle scroll view'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/DHLau/DHCycleScrollView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'DHLau' => 'liudunhui@11wlw.com' }
+  s.author           = { 'DHLau' => 'ldhtrythebest@163.com' }
   s.source           = { :git => 'https://github.com/DHLau/DHCycleScrollView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
