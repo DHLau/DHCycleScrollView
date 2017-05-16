@@ -22,7 +22,7 @@ pod "DHCycleScrollView"
 
 ## Author
 
-DHLau, liudunhui@11wlw.com
+DHLau, ldhtrythebest@163.com
 
 ## License
 
