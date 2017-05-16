@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DHCycleScrollView_Example' do
+  pod 'DHCycleScrollView', :path => '../'
+
+  target 'DHCycleScrollView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
