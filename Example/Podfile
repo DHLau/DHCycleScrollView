@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'DHCycleScrollView_Example' do
   pod 'DHCycleScrollView', :path => '../'
-
+  pod 'SDWebImage'
   target 'DHCycleScrollView_Tests' do
     inherit! :search_paths
 

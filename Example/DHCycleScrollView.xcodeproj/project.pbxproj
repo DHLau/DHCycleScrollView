@@ -21,6 +21,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		779DB1201ECA997C004A7529 /* DHCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 779DB11F1ECA997C004A7529 /* DHCycleScrollView.m */; };
+		779DB1241ECAB004004A7529 /* DHTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 779DB1231ECAB004004A7529 /* DHTestModel.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A2100DABBA0C4296A77A9AD1 /* Pods_DHCycleScrollView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA566AFD8F31247C4C83D19 /* Pods_DHCycleScrollView_Example.framework */; };
 		E6E283681C9CD9D061F53D3A /* Pods_DHCycleScrollView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0804ABC13A5B05F66440E0AE /* Pods_DHCycleScrollView_Tests.framework */; };
@@ -39,7 +41,7 @@
 /* Begin PBXFileReference section */
 		0804ABC13A5B05F66440E0AE /* Pods_DHCycleScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DHCycleScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D3B9FB0345C5B5E19D08DA /* Pods-DHCycleScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHCycleScrollView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DHCycleScrollView_Example/Pods-DHCycleScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		42515F19D10CBA95C7330BF5 /* DHCycleScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DHCycleScrollView.podspec; path = ../DHCycleScrollView.podspec; sourceTree = "<group>"; };
+		42515F19D10CBA95C7330BF5 /* DHCycleScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DHCycleScrollView.podspec; path = ../DHCycleScrollView.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DHCycleScrollView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHCycleScrollView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,10 +62,15 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7221AF047B0CF993B8518E82 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7221AF047B0CF993B8518E82 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		779DB11E1ECA997C004A7529 /* DHCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHCycleScrollView.h; sourceTree = "<group>"; };
+		779DB11F1ECA997C004A7529 /* DHCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHCycleScrollView.m; sourceTree = "<group>"; };
+		779DB1211ECA99CA004A7529 /* DHCycleScrollViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHCycleScrollViewProtocol.h; sourceTree = "<group>"; };
+		779DB1221ECAB004004A7529 /* DHTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTestModel.h; sourceTree = "<group>"; };
+		779DB1231ECAB004004A7529 /* DHTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTestModel.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8994CA93E23C6DB278686E10 /* Pods-DHCycleScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHCycleScrollView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DHCycleScrollView_Tests/Pods-DHCycleScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A2986BA1E53B9B951E4B2014 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A2986BA1E53B9B951E4B2014 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		ADA566AFD8F31247C4C83D19 /* Pods_DHCycleScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DHCycleScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8E0C9EF0E70178685CD3EF /* Pods-DHCycleScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHCycleScrollView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DHCycleScrollView_Example/Pods-DHCycleScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E5113ED411C6A3DA7F567D19 /* Pods-DHCycleScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHCycleScrollView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DHCycleScrollView_Tests/Pods-DHCycleScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,9 +152,14 @@
 			children = (
 				6003F59C195388D20070C39A /* DHAppDelegate.h */,
 				6003F59D195388D20070C39A /* DHAppDelegate.m */,
+				779DB1221ECAB004004A7529 /* DHTestModel.h */,
+				779DB1231ECAB004004A7529 /* DHTestModel.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* DHViewController.h */,
 				6003F5A6195388D20070C39A /* DHViewController.m */,
+				779DB1211ECA99CA004A7529 /* DHCycleScrollViewProtocol.h */,
+				779DB11E1ECA997C004A7529 /* DHCycleScrollView.h */,
+				779DB11F1ECA997C004A7529 /* DHCycleScrollView.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -250,6 +262,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = DHLau;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = UFR9B68S2F;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -394,8 +409,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				779DB1201ECA997C004A7529 /* DHCycleScrollView.m in Sources */,
 				6003F59E195388D20070C39A /* DHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* DHViewController.m in Sources */,
+				779DB1241ECAB004004A7529 /* DHTestModel.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,6 +541,7 @@
 			baseConfigurationReference = AE8E0C9EF0E70178685CD3EF /* Pods-DHCycleScrollView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UFR9B68S2F;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DHCycleScrollView/DHCycleScrollView-Prefix.pch";
 				INFOPLIST_FILE = "DHCycleScrollView/DHCycleScrollView-Info.plist";
@@ -539,6 +557,7 @@
 			baseConfigurationReference = 13D3B9FB0345C5B5E19D08DA /* Pods-DHCycleScrollView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UFR9B68S2F;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DHCycleScrollView/DHCycleScrollView-Prefix.pch";
 				INFOPLIST_FILE = "DHCycleScrollView/DHCycleScrollView-Info.plist";

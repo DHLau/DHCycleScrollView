@@ -1,0 +1,21 @@
+PODS:
+  - DHCycleScrollView (0.1.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+
+DEPENDENCIES:
+  - DHCycleScrollView (from `../`)
+  - SDWebImage
+
+EXTERNAL SOURCES:
+  DHCycleScrollView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DHCycleScrollView: e244b1bc8423fc5811e8d26e6f8ecdfb11f05f98
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+
+PODFILE CHECKSUM: bdfa0084664bd7169768b879dd46727318ab887c
+
+COCOAPODS: 1.2.1
