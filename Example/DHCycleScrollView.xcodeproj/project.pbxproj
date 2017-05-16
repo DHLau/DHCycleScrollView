@@ -13,7 +13,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* DHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* DHAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* DHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* DHViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -21,8 +20,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		779DB1201ECA997C004A7529 /* DHCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 779DB11F1ECA997C004A7529 /* DHCycleScrollView.m */; };
 		779DB1241ECAB004004A7529 /* DHTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 779DB1231ECAB004004A7529 /* DHTestModel.m */; };
+		779DB1271ECACD52004A7529 /* DHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 779DB1261ECACD52004A7529 /* DHViewController.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A2100DABBA0C4296A77A9AD1 /* Pods_DHCycleScrollView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA566AFD8F31247C4C83D19 /* Pods_DHCycleScrollView_Example.framework */; };
 		E6E283681C9CD9D061F53D3A /* Pods_DHCycleScrollView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0804ABC13A5B05F66440E0AE /* Pods_DHCycleScrollView_Tests.framework */; };
@@ -52,8 +51,6 @@
 		6003F59B195388D20070C39A /* DHCycleScrollView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DHCycleScrollView-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* DHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* DHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* DHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* DHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* DHCycleScrollView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHCycleScrollView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -63,11 +60,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7221AF047B0CF993B8518E82 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		779DB11E1ECA997C004A7529 /* DHCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHCycleScrollView.h; sourceTree = "<group>"; };
-		779DB11F1ECA997C004A7529 /* DHCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHCycleScrollView.m; sourceTree = "<group>"; };
-		779DB1211ECA99CA004A7529 /* DHCycleScrollViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHCycleScrollViewProtocol.h; sourceTree = "<group>"; };
 		779DB1221ECAB004004A7529 /* DHTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTestModel.h; sourceTree = "<group>"; };
 		779DB1231ECAB004004A7529 /* DHTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTestModel.m; sourceTree = "<group>"; };
+		779DB1251ECACD52004A7529 /* DHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHViewController.h; sourceTree = "<group>"; };
+		779DB1261ECACD52004A7529 /* DHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHViewController.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8994CA93E23C6DB278686E10 /* Pods-DHCycleScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHCycleScrollView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DHCycleScrollView_Tests/Pods-DHCycleScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A2986BA1E53B9B951E4B2014 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -152,14 +148,11 @@
 			children = (
 				6003F59C195388D20070C39A /* DHAppDelegate.h */,
 				6003F59D195388D20070C39A /* DHAppDelegate.m */,
+				779DB1251ECACD52004A7529 /* DHViewController.h */,
+				779DB1261ECACD52004A7529 /* DHViewController.m */,
 				779DB1221ECAB004004A7529 /* DHTestModel.h */,
 				779DB1231ECAB004004A7529 /* DHTestModel.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* DHViewController.h */,
-				6003F5A6195388D20070C39A /* DHViewController.m */,
-				779DB1211ECA99CA004A7529 /* DHCycleScrollViewProtocol.h */,
-				779DB11E1ECA997C004A7529 /* DHCycleScrollView.h */,
-				779DB11F1ECA997C004A7529 /* DHCycleScrollView.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -409,9 +402,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				779DB1201ECA997C004A7529 /* DHCycleScrollView.m in Sources */,
+				779DB1271ECACD52004A7529 /* DHViewController.m in Sources */,
 				6003F59E195388D20070C39A /* DHAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* DHViewController.m in Sources */,
 				779DB1241ECAB004004A7529 /* DHTestModel.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

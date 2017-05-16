@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "DHCycleScrollView.h"
+#import "DHCycleScrollViewProtocol.h"
 
 FOUNDATION_EXPORT double DHCycleScrollViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char DHCycleScrollViewVersionString[];

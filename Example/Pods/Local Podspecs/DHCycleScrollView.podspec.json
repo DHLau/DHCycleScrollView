@@ -1,8 +1,8 @@
 {
   "name": "DHCycleScrollView",
   "version": "0.1.0",
-  "summary": "A short description of DHCycleScrollView.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "scroll view",
+  "description": "An easy use image cycle scroll view",
   "homepage": "https://github.com/DHLau/DHCycleScrollView",
   "license": {
     "type": "MIT",
